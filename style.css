@@ -1,0 +1,124 @@
+
+/* all common css start */
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header h1{
+    font-size: 50px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+    color: #ffffff81;
+    line-height: 40px;
+}
+
+p{
+    display: block;
+    color: #ffffff81;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff81;
+}
+/* all commmon css end */
+
+/* navbar start */
+
+#navbar{
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.7),
+    inset 0px 0px 10px rgba(0,0,0,0.5);
+    background: transparent;
+
+}
+
+.logoTxt{
+    color: #ffffff81;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+}
+.nav{
+    color: #ffffff81;
+    margin: 10px 0 30px;
+    padding: 10px 0;
+}
+
+.links i{
+    margin-left: 20px;
+}
+/* navbar end */
+
+
+/* calculator css start */
+body{
+    background: rgb(1, 81, 87);
+}
+
+.col-md-6{
+    margin-bottom: 15px;
+}
+
+.calculator{
+    padding: 10px 20px;
+    background: transparent;
+    box-shadow: -7px -3px 20px 0px rgba(0,0,0,0.7),
+    inset 0px 0px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.calculator p{
+    color: #ffffff81;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+}
+
+.calculator input {
+	height: 50px;
+	width: 295px;
+	background: transparent;
+	border: none;
+	text-align: right;
+    box-shadow: -7px -3px 20px 0px rgba(0,0,0,0.7),
+    inset 0px 0px 10px rgba(0,0,0,0.5),
+    inset -5px -5px 10px rgba(0,0,0,0.3);
+	color: #ffffffe2;
+	margin: 5px 0 30px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	padding: 10px 15px;
+    font-size: 30px;
+}
+
+
+
+.calculator button{
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: -7px -3px 20px 0px rgba(0,0,0,0.7),
+    inset 0px 0px 10px rgba(0,0,0,0.5),
+    inset -5px -5px 10px rgba(0,0,0,0.3);
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    color: #ffffff7c;
+}
+
+#operator{
+    color: rgb(1, 81, 87);
+    background: #ffffff7c;
+}
+/* calculator css end */

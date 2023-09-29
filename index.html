@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <!-- navbar start -->
+  <section id="navbar">
+    <div class="container">
+      <div class="nav d-flex align-items-center justify-content-between fs-5">
+        <div class="logo">
+          <i class="fa-solid fa-calculator"></i>
+          <span class="logoTxt">CASIO</span>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- navbar end -->
+  <!-- calc part start -->
+  <div class="container">
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="col-md-6">
+        <div class="header">
+          <h1 class="">Online Calculation Made Simple</h1>
+        </div>
+        
+        <p>Your go-to online calculator for quick and accurate computations.</p>
+        <br>
+        <p>Welcome to our online calculator tool, where convenience meets precision. Whether you need to crunch numbers for everyday tasks, work, or school, our user-friendly interface makes it a breeze. Perform a wide range of calculations effortlessly, from basic arithmetic to complex equations. Our calculator is designed to provide you with accurate results in no time. Say goodbye to manual math and experience the ease of online calculations with us. Try it now and simplify your mathematical tasks today!</p>
+      </div>
+      <div class="calc_cont d-flex align-items-center justify-content-center col-md-6">
+        <div class="calculator">
+          <p class="fs-2 text-center">CASIO</p>
+          <input id="input_bx" type="text" placeholder="0">
+          <div class="all_btn">
+                     <div class="">
+            <button id="operator">AC</button>
+            <button id="operator">DEL</button>
+            <button id="operator">%</button>
+            <button id="operator">/</button>
+          </div>
+          <div class="">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button id="operator">*</button>
+          </div>
+          <div class="">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button id="operator">-</button>
+          </div>
+          <div class="">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button id="operator">+</button>
+          </div>
+          <div class="">
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button id="operator">=</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- calc part end -->
+  <!-- js cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
